@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+/* .logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 27%;
+    display: flex;
+    /* border: 3px solid white; */
+    /* border-radius: 40px; */
+    /* height: 59px; */
+    /* margin: 3px 6px; */
+    /* background-color: blue
+} */
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    margin: 8px 35px;
+    font-size: 35px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffd700;
+    top: 0;
+    cursor: pointer;
+    mix-blend-mode: darken;
+}
+
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    /* padding: 26px 30px; */
+    font-size: 1.5rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    border-radius: 13px;
+    margin: 0px 10px;
+    padding: 5px 30px;
+}
+
+.nav-list li a:hover, .nav-list li a.active{
+    text-decoration: none;
+    color: #ffd700;
+    background-color: #426e92;
+}
+
+
+.rightNav{
+    /* background-color: red; */
+    width: 30%;
+    text-align: right;
+    padding: 0 32px;
+}
+
+
+
+.btn{
+    padding: 10px 10px;
+    margin: 9px 20px;
+     border: 2px solid #ffd700; 
+     border-radius: 12px;
+    background: none;
+    color: #ffd700;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #426e92;
+    vertical-align: middle;
+    width: 114px;
+    /* transition: all 3s ease-out 3s; */
+}
+
+.btn:hover{
+    border: 2px solid #426e92;
+    background-color: #ffd700;
+    color: #426e92;
+}
+
+.box{
+    background-color: #26425a;
+    height: 220vh;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Segoe UI';
+    font-size: 38px;
+    color: #ffd700;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* max-width: 50%; */
+    margin-top: 70px;
+    color: whitesmoke;
+}
+
+.block{
+    padding: 0px 10px;
+    margin: 0px 40px;
+    justify-content: center;
+}
+
+.place1{
+    display: flex;
+    list-style: none;
+}
+
+.place1 li{
+    padding: 4px 8px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.sm{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.image{
+    display: flex;
+}
+
+.img{
+    width: 35px;
+    height: 35px;
+    padding-right: 22px;
+    padding-top: 8px;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 65px;
+    font-size: 30px;
+    color: #ffd700;
+    /* border: 2px solid #ffd700; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 15px 160px;
+    width: 60%;
+    justify-content: center;
+    padding: 5px 13px;
+    font-size: 19px;
+    border: 2px solid #ffd700;
+    border-radius: 6px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#service{
+    margin: 15px 160px;
+    width: 63%;
+    justify-content: center;
+    padding: 5px 13px;
+    font-size: 19px;
+    border: 2px solid #ffd700;
+    border-radius: 6px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn1{
+    padding: 8px 20px;
+    margin: 15px 370px;
+    border: 2px solid #426e92;
+    border-radius: 7px;
+    background: none;
+    color: #426e92;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    background-color: #ffd700;
+
+}
+
+.btn1:hover{
+    color: #ffd700;
+    background-color: #426e92;
+    border:2px solid #ffd700;
+    
+}
+
+.maps{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+iframe{
+    border-radius: 15px;
+    height: 400px;
+    width: 50%;
+    
+  }
+
+footer{
+    background-color: #ffd700;
+    color: black;
+    padding: 9px 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+#visit{
+    max-width: 40%;
+}
+
+.heads{
+    display: flex;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
